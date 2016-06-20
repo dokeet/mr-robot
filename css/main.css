@@ -1,0 +1,47 @@
+.parallax-container {
+  height: 100vh; }
+
+.typed-cursor {
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+  font-size: 48px;
+  color: #b71c1c; }
+
+@keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+nav li a {
+  color: red; }
+
+.element {
+  font-size: 32px;
+  color: white;
+  font-family: Source Code Pro, Courier New, Courier, monospace;
+  position: relative;
+  font-weight: bold; }
+
+#revolution {
+  opacity: 0.3; }
+
+.title {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); }
+
+.text_test {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); }
+
+.ecorp {
+  opacity: 0.3; }
+
+/*# sourceMappingURL=main.css.map */
