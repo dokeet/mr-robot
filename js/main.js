@@ -1,5 +1,6 @@
 $(document).ready(function(){
       $('.parallax').parallax();
+
 });
 
 $(function(){
@@ -27,10 +28,8 @@ $(function(){
             });
         });
 
-/*
 
- I don't just hack you, Krista. I hack everyone, my friends, coworkers,
- but I've helped a lot of people. I want a way out of loneliness,
- just like you. Is that what you wanted to hear?
 
- */
+ // I don't just hack you, Krista. I hack everyone, my friends, coworkers,
+ // but I've helped a lot of people. I want a way out of loneliness,
+ // just like you. Is that what you wanted to hear?
