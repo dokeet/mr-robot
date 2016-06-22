@@ -1,6 +1,9 @@
 .parallax-container {
   height: 100vh; }
 
+@font-face {
+  font-family: "MrRobot";
+  src: url("/font/mrrobot.ttf"); }
 .typed-cursor {
   opacity: 1;
   -webkit-animation: blink 0.7s infinite;
@@ -43,5 +46,8 @@ nav li a {
 
 .ecorp {
   opacity: 0.3; }
+
+.titles {
+  font-family: MrRobot; }
 
 /*# sourceMappingURL=main.css.map */
