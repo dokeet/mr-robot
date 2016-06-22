@@ -3,7 +3,7 @@
 
 @font-face {
   font-family: "MrRobot";
-  src: url("/font/mrrobot.ttf"); }
+  src: url("font/mrrobot.ttf"); }
 .typed-cursor {
   opacity: 1;
   -webkit-animation: blink 0.7s infinite;
