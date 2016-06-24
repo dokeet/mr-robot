@@ -12,33 +12,53 @@
    </head>
 
    <body>
-     <nav>
-      <div class="nav-wrapper black">
-        <a href="#" class="brand-logo red-text text-darken-4 titles center">dok</a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="#about" class="red-text text-darken-4">about</a></li>
-          <li><a href="#portfolio" class="red-text text-darken-4">portfolio</a></li>
-          <li><a href="#contact" class="red-text text-darken-4">contact</a></li>
-        </ul>
-      </div>
-    </nav>
+     <div class="navbar-fixed">
+      <header class="nav-down">
+          <nav>
+               <div class="nav-wrapper black">
+                   <a href="#" class="brand-logo red-text text-darken-4 titles center">dok</a>
+                   <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons red-text text-darken-4">menu</i></a>
+                   <ul class="right hide-on-med-and-down">
+                     <li><a href="#about" class="red-text text-darken-4">about</a></li>
+                     <li><a href="#portfolio" class="red-text text-darken-4">portfolio</a></li>
+                     <li><a href="#contact" class="red-text text-darken-4">contact</a></li>
+                   </ul>
+                   <ul class="side-nav black" id="mobile-demo">
+                     <li><a href="#about" class="red-text text-darken-4">about</a></li>
+                     <li><a href="#portfolio" class="red-text text-darken-4">portfolio</a></li>
+                     <li><a href="#contact" class="red-text text-darken-4">contact</a></li>
+                   </ul>
+                 </div>
+
+             </nav>
+
+        </header>
+        </div>
 
       <div class="parallax-container">
-        <div class="parallax black"><img class="lowerOpacity" src="images/last.jpg">
+        <div class="parallax black"><img class="lowerOpacity img-responsive" src="images/secondbg.jpg">
 
       </div>
       <div class="row container left">
         <div class="col s12 m12">
           <div class="container left">
-            <div class="menuTerminal center-align"><span id="root">root@kali: ~<span></div>
+            <div class="menuTerminal center-align">
+              <span id="root">root@kali: ~<span>
+            </div>
                 <span class="element console" style="white-space:pre"></span>
                 <span class="typed-cursor"></span>
           </div>
         </div>
       </div>
       </div>
+
+      <!-- about  -->
       <a name="about">
-      <div class="section black">
+      <div class="parallax-container">
+          <div class="parallax black"><img class="lowerOpacity img-responsive" src="images/fsociety2.gif">
+
+      </div>
+
         <div class="row container ">
           <div class="col s12 m8">
             <h2 class="header red-text text-darken-4 titles" >about</h2>
@@ -51,6 +71,8 @@
         </div>
       </div>
       </a>
+
+
       <div class="parallax-container">
         <a name="portfolio">
         <div class="parallax black">
@@ -181,7 +203,7 @@
         <div class="title center-align">
 
             <h1 class="red-text text-darken-4 titles blink-text">contact</h1>
-            <p class="red-text text-darken-4 unless">unless you're evilcorp</p>
+            <p class="red-text text-darken-4 unless center-align">stay away evil corp</p>
             <br>
             <p class="red-text text-darken-4">codepen:
               <a class="red-text text-darken-4"  href="https://codepen.io/dok/" target="_blank">@dok</a></p>

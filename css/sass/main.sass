@@ -1,9 +1,13 @@
-
+html
+  background-color: black
 
 .parallax-container
   height: 100vh
 
-
+li
+  a
+    font-size: 14px
+    font-weight: bold
 
 @font-face
   font-family: 'MrRobot' /*a name to be used later*/
@@ -56,30 +60,49 @@
     color: #9a1818
 
 
+header
+  position: fixed
+  top: 0
+  transition: top 0.2s ease-in-out
+  width: 100%
+
+
+.nav-up
+  top: -60px
+
+
+
+
 .menuTerminal
   box-sizing: border-box
   height: 25px
-  background-color: #bbb
   margin: 0 auto
   border-top-right-radius: 5px
   border-top-left-radius: 5px
+  background-color: black
+  /* will be "on top", if browser supports it */
+  background-image: linear-gradient(#212121, #1B1B1B)
+  /* these will reset other properties, like background-position, but it does know what you mean */
+  background: black
+  background: linear-gradient(#212121, #1B1B1B)
 
 #root
-  color: black
+  color: #D4D4D4
   font-weight: bolder
   font-family: Roboto
 
 .element
   color: white
   font-family: Source Code Pro, Courier New, Courier, monospace
-  font-size: 100%
+  font-size: 80%
 
 .console
   background-color: black
 
 
+
 .lowerOpacity
-  opacity: 0.2
+  opacity: 0.4
 
 .unless
   font-size: 12px
