@@ -1,16 +1,30 @@
+html {
+  background-color: black; }
+
 .parallax-container {
   height: 100vh; }
+
+li a {
+  font-size: 14px;
+  font-weight: bold; }
 
 @font-face {
   font-family: "MrRobot";
   src: url("/font/mrrobot.ttf"); }
+.header {
+  font-size: 10vw; }
+
 .typed-cursor {
   opacity: 1;
   -webkit-animation: blink 0.7s infinite;
   -moz-animation: blink 0.7s infinite;
   animation: blink 0.7s infinite;
-  font-size: 48px;
-  color: #b71c1c; }
+  font-size: 100%;
+  color: white; }
+
+.terminalText {
+  color: #B31F1E;
+  font-weight: bold; }
 
 @keyframes blink {
   0% {
@@ -19,18 +33,60 @@
     opacity: 0; }
   100% {
     opacity: 1; } }
-nav li a {
-  color: red; }
+.blink-text {
+  opacity: 1;
+  -webkit-animation: blink 0.3s infinite;
+  -moz-animation: blink 0.3s infinite;
+  animation: blink-text 0.3s infinite;
+  font-size: 8vw;
+  color: #b71c1c; }
+
+@keyframes blink-text {
+  0% {
+    color: #b71c1c; }
+  100% {
+    color: #9a1818; } }
+header {
+  position: fixed;
+  top: 0;
+  transition: top 0.2s ease-in-out;
+  width: 100%; }
+
+.nav-up {
+  top: -60px; }
+
+.menuTerminal {
+  box-sizing: border-box;
+  height: 25px;
+  margin: 0 auto;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  background-color: black;
+  /* will be "on top", if browser supports it */
+  background-image: linear-gradient(#212121, #1B1B1B);
+  /* these will reset other properties, like background-position, but it does know what you mean */
+  background: black;
+  background: linear-gradient(#212121, #1B1B1B); }
+
+#root {
+  color: #D4D4D4;
+  font-weight: bolder;
+  font-family: Roboto; }
 
 .element {
-  font-size: 32px;
   color: white;
   font-family: Source Code Pro, Courier New, Courier, monospace;
-  position: relative;
-  font-weight: bold; }
+  font-size: 80%; }
 
-#revolution {
-  opacity: 0.3; }
+.console {
+  background-color: black; }
+
+.lowerOpacity {
+  opacity: 0.4; }
+
+.unless {
+  font-size: 12px;
+  margin-top: -30px; }
 
 .title {
   position: absolute;
@@ -45,9 +101,10 @@ nav li a {
   transform: translate(-50%, -50%); }
 
 .ecorp {
-  opacity: 0.3; }
+  opacity: 0.3;
+  height: 10vh; }
 
 .titles {
-  font-family: MrRobot; }
+  font-family: MrRobot, Roboto; }
 
 /*# sourceMappingURL=main.css.map */
