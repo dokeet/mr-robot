@@ -10,7 +10,7 @@ li a {
 
 @font-face {
   font-family: "MrRobot";
-  src: url("/font/mrrobot.ttf"); }
+  src: url("./font/mrrobot.ttf"); }
 .header {
   font-size: 10vw; }
 
