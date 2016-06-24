@@ -5,28 +5,19 @@ $(document).ready(function(){
 
 $(function(){
         $(".element").typed({
-          strings: ["<dok>: Hello, friend.^2000\n<dok>: Welcome.^2000"+
-          "\n<dok>: I do: Frontend development^1000\n<dok>: Javascript. Vuejs. Cute apps.^2000"+
-          "\n<dok>: Currently: @ freecodecamp learning to code.^2000"],
-          typeSpeed: 20,
+          strings: ["<span class='terminalText'>root@kali:~# <span class='white-text'>Hello, friend.</span></span>^1000\n"+
+          "<span class='terminalText'>root@kali:~# <span class='white-text'>Welcome.</span></span>^1000\n"+
+          "<span class='terminalText'>root@kali:~# <span class='white-text'>I'm a Front-end developer.</span></span>^1000\n"+
+          "<span class='terminalText'>root@kali:~# <span class='white-text'>Currently learning @ freecodecamp</span></span>^100\n"+
+          "<span class='terminalText'>root@kali:~# <span class='white-text'>Mr Robot fan</span></span>"],
+          typeSpeed: 30,
           backDelay: 500,
           loop: false,
           loopCount: false,
-          contentType: 'text'
+          contentType: 'html'
         });
     });
 
-$(function(){
-            $(".name").typed({
-              strings: ["Jorge Cabello.", "Jorge."],
-              typeSpeed: 20,
-              startDelay: 2000,
-              backDelay: 500,
-              loop: true,
-              loopCount: 3,
-              contentType: 'text'
-            });
-        });
 
 
 
