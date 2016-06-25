@@ -9,9 +9,11 @@ li
     font-size: 14px
     font-weight: bold
 
+
 @font-face
-  font-family: 'MrRobot' /*a name to be used later*/
-  src: url('/font/mrrobot.ttf') /*URL to font*/
+  font-family: 'MrRobot'
+  src: url('/font/mrrobot/mrrobot.woff') format("woff"), url('/font/mrrobot/mrrobot.ttf') format('truetype')
+
 
 .header
   font-size: 10vw
@@ -85,6 +87,7 @@ header
   /* these will reset other properties, like background-position, but it does know what you mean */
   background: black
   background: linear-gradient(#212121, #1B1B1B)
+  width: 80vw
 
 #root
   color: #D4D4D4
@@ -95,10 +98,7 @@ header
   color: white
   font-family: Source Code Pro, Courier New, Courier, monospace
   font-size: 80%
-
-.console
   background-color: black
-
 
 
 .lowerOpacity
