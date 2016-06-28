@@ -1,8 +1,6 @@
 html
   background-color: black
 
-.parallax-container
-  height: 100vh
 
 li
   a
@@ -19,17 +17,35 @@ li
 .header
   font-size: 10vw
 
-.typed-cursor
-  opacity: 1
-  -webkit-animation: blink 0.7s infinite
-  -moz-animation: blink 0.7s infinite
-  animation: blink 0.7s infinite
-  font-size: 100%
-  color: white
+.parallax-container
+  height: 100vh
 
-.terminalText
-  color: #B31F1E
-  font-weight: bold
+
+header
+  position: fixed
+  top: 0
+  transition: top 0.2s ease-in-out
+  width: 100%
+
+
+.nav-up
+  top: -60px
+
+
+.title
+  position: absolute
+  left: 50%
+  top: 50%
+  transform: translate(-50%, -50%)
+
+.ecorp
+  opacity: 0.3
+  height: 10vh
+
+.titles
+  font-family: mrrobot, Roboto
+
+// ANIMATION
 
 
 
@@ -63,18 +79,6 @@ li
     color: #9a1818
 
 
-header
-  position: fixed
-  top: 0
-  transition: top 0.2s ease-in-out
-  width: 100%
-
-
-.nav-up
-  top: -60px
-
-
-
 
 .menuTerminal
   box-sizing: border-box
@@ -88,12 +92,24 @@ header
   /* these will reset other properties, like background-position, but it does know what you mean */
   background: black
   background: linear-gradient(#212121, #1B1B1B)
-  width: 80vw
+
 
 #root
   color: #D4D4D4
   font-weight: bolder
   font-family: Roboto
+
+.typed-cursor
+  opacity: 1
+  -webkit-animation: blink 0.7s infinite
+  -moz-animation: blink 0.7s infinite
+  animation: blink 0.7s infinite
+  font-size: 100%
+  color: white
+
+.terminalText
+  color: #B31F1E
+  font-weight: bold
 
 .element
   color: white
@@ -108,24 +124,3 @@ header
 .unless
   font-size: 12px
   margin-top: -30px
-
-
-.title
-  position: absolute
-  left: 50%
-  top: 50%
-  transform: translate(-50%, -50%)
-
-
-.text_test
-  position: absolute
-  left: 50%
-  top: 50%
-  transform: translate(-50%, -50%)
-
-.ecorp
-  opacity: 0.3
-  height: 10vh
-
-.titles
-  font-family: mrrobot, Roboto

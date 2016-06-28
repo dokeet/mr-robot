@@ -1,17 +1,18 @@
 $(document).ready(function(){
       $('.parallax').parallax();
       $(".button-collapse").sideNav();
+      $('.materialboxed').materialbox();
 });
 
 
 
 $(function(){
         $(".element").typed({
-          strings: ["<span class='terminalText'>root@kali:~# <span class='white-text'>Hello, friend.</span></span>^1000\n"+
-          "<span class='terminalText'>root@kali:~# <span class='white-text'>Welcome.</span></span>^1000\n"+
-          "<span class='terminalText'>root@kali:~# <span class='white-text'>I'm a Front-end developer.</span></span>^1000\n"+
-          "<span class='terminalText'>root@kali:~# <span class='white-text'>Currently learning @ freecodecamp</span></span>^100\n"+
-          "<span class='terminalText'>root@kali:~# <span class='white-text'>Mr Robot fan</span></span>"],
+          strings: ["<span class='terminalText'>dok@fsociety:~# <span class='white-text'>Hello, friend.</span></span>\n"+
+          "<span class='terminalText'>dok@fsociety:~# ^1000<span class='white-text'>Welcome.</span></span>\n"+
+          "<span class='terminalText'>dok@fsociety:~# ^1000<span class='white-text'>I'm a Front-end developer.</span></span>\n"+
+          "<span class='terminalText'>dok@fsociety:~# ^1000<span class='white-text'>Currently learning @ freecodecamp</span></span>\n"+
+          "<span class='terminalText'>dok@fsociety:~# ^1000<span class='white-text'></span></span>"],
           typeSpeed: 30,
           backDelay: 500,
           loop: false,
