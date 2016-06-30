@@ -10,9 +10,11 @@ $(function(){
         $(".element").typed({
           strings: ["<span class='terminalText'>dok@fsociety:~# <span class='white-text'>Hello, friend.</span></span>\n"+
           "<span class='terminalText'>dok@fsociety:~# ^1000<span class='white-text'>Welcome.</span></span>\n"+
-          "<span class='terminalText'>dok@fsociety:~# ^1000<span class='white-text'>I'm a Front-end developer.</span></span>\n"+
-          "<span class='terminalText'>dok@fsociety:~# ^1000<span class='white-text'>Currently learning @ freecodecamp</span></span>\n"+
-          "<span class='terminalText'>dok@fsociety:~# ^1000<span class='white-text'>We are fsociety, we are finally free, we are finally awake!</span></span>"],
+          "<span class='terminalText'>dok@fsociety:~# ^1000<span class='white-text'>I'm Jorge, just a tech.</span></span>\n"+
+          "<span class='terminalText'>dok@fsociety:~# ^1000<span class='white-text'>Kidding, just a regular Front-end developer.</span></span>\n"+
+          "<span class='terminalText'>dok@fsociety:~# ^1000<span class='white-text'>Currently learning @ <br>freecodecamp.com - an open source community that helps you learn to code.</span></span>\n"+
+          "<span class='terminalText'>dok@fsociety:~# ^1000<span class='white-text'>Web developer, i do stuff with javascript. </span></span>\n"+
+          "<span class='terminalText'>dok@fsociety:~# ^1000<span class='white-text'>We are fsociety, we are finally free, <br>we are finally awake!</span></span>"],
           typeSpeed: 30,
           backDelay: 500,
           loop: false,
