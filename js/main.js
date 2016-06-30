@@ -12,7 +12,7 @@ $(function(){
           "<span class='terminalText'>dok@fsociety:~# ^1000<span class='white-text'>Welcome.</span></span>\n"+
           "<span class='terminalText'>dok@fsociety:~# ^1000<span class='white-text'>I'm a Front-end developer.</span></span>\n"+
           "<span class='terminalText'>dok@fsociety:~# ^1000<span class='white-text'>Currently learning @ freecodecamp</span></span>\n"+
-          "<span class='terminalText'>dok@fsociety:~# ^1000<span class='white-text'>this is fsociety.</span></span>"],
+          "<span class='terminalText'>dok@fsociety:~# ^1000<span class='white-text'>We are fsociety, we are finally free, we are finally awake!</span></span>"],
           typeSpeed: 30,
           backDelay: 500,
           loop: false,
