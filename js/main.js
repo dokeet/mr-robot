@@ -13,8 +13,7 @@ $(function(){
           "<span class='terminalText'>dok@fsociety:~# ^1000<span class='white-text'>I'm Jorge.</span></span>\n"+
           "<span class='white-text'>just a <span id='tech'>tech</span> Front-end developer.</span>\n"+
           "^1000<span class='white-text'>Currently learning @ freecodecamp<br>An open source community <br>that helps you learn to code.</span>\n"+
-          "^1000<span class='white-text'>Web developer, <br>i do stuff with javascript. </span>\n\n\n"+
-          "^1000<span class='white-text'>~fsociety. </span>"],
+          "^1000<span class='white-text'>I'm a Web developer<br>i do stuff with javascript. </span>\n\n\n"],
           typeSpeed: 30,
           backDelay: 500,
           loop: false,
