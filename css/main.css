@@ -2,7 +2,7 @@ html {
   background-color: black; }
 
 li a {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold; }
 
 @font-face {
@@ -98,5 +98,11 @@ header {
 .unless {
   font-size: 12px;
   margin-top: -30px; }
+
+textarea {
+  box-sizing: border-box; }
+
+label.active {
+  color: #B31F1E; }
 
 /*# sourceMappingURL=main.css.map */
