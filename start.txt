@@ -1,2 +1,2 @@
-sass --watch css/sass/main.sass:css/output/main.css
+sass --watch css/sass/main.sass:css/main.css
 live-server
