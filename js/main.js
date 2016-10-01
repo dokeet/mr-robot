@@ -1,3 +1,20 @@
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/service-worker.js', { scope: '/' }).then(function(reg) {
+    
+    if(reg.installing) {
+      console.log('Service worker installing');
+    } else if(reg.waiting) {
+      console.log('Service worker installed');
+    } else if(reg.active) {
+      console.log('Service worker active');
+    }
+    
+  }).catch(function(error) {
+    // registration failed
+    console.log('Registration failed with ' + error);
+  });
+}
+
 $(document).ready(function(){
       $('.parallax').parallax();
       $(".button-collapse").sideNav();
@@ -9,12 +26,12 @@ $(document).ready(function(){
 $(function(){
         $(".element").typed({
           strings: ["<span class='terminalText'>dok@fsociety:~# <span class='white-text'>Hello, friend.</span></span>\n"+
-          "<span class='terminalText'>dok@fsociety:~# ^1000<span class='white-text'>Welcome.</span></span>\n"+
+          "<span class='terminalText'>dok@fsociety:~# <span class='white-text'>Welcome.</span></span>\n"+
           "<span class='terminalText'>dok@fsociety:~# <span class='white-text'>I'm Jorge.</span></span>\n"+
-          "<span class='white-text'>Front-end developer, <br>going to the full stack.</span>\n"+
+          "<span class='white-text'>Front-end developer, <br>.</span>\n"+
           "<span class='white-text'>Currently learning @ freecodecamp<br>An open source community <br>that helps you learn to code.</span>\n"+
-          "<span class='white-text'>I'm a Web developer<br>i do stuff with: <br>- HTML <br>- Javascript (Vue.js mostly and jquery) <br>- CSS (SASS, bootstrap, materialize). </span>\n\n\n"],
-          typeSpeed: 3,
+          "<span class='white-text'>Mr Robot fan</span>\n\n\n"],
+          typeSpeed: 1,
           backDelay: 500,
           loop: false,
           loopCount: false,
