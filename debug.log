@@ -1,3 +1,0 @@
-[0808/222054:ERROR:process_reader_win.cc(233)] ReadMemory at 0x4c5000 of 45056 bytes failed: Sólo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
-[0808/222054:ERROR:crash_report_exception_handler.cc(102)] WriteEverything failed
-[0808/222054:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess, ntstatus=-1073741558
